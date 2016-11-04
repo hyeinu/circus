@@ -43,8 +43,8 @@ export default class ProfileForm extends Component {
           </form>
         </Modal.Body>
         <Modal.Footer>
-          <Button className="btn btn-success" onClick={this._submit}>Edit</Button>
-          <Button onClick={this.props.closeModal}>Close</Button>
+          <Button className="btn btn-info" onClick={this._submit}>Edit</Button>
+          <Button className="btn btn-danger" onClick={this.props.closeModal}>Close</Button>
         </Modal.Footer>
       </Modal>
     )
